@@ -20,6 +20,6 @@ export class HomeComponent implements OnInit{
     }
   
   product() {
-      console.log(this.homeService.products)
+    return this.homeService.confirmProduct;
   };
 }

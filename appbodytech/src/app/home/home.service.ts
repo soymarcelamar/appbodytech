@@ -12,8 +12,8 @@ export class HomeService {
   constructor( private http:HttpClient ) { }
 
   products(_product: ProductRequest): Observable<ProductBasic> {
-    return this.http.get<ProductBasic>('././data.json').pipe(
-      catchError(this.handleError));
+    return this.http.get<ProductBasic>('./././data.json').pipe(
+        catchError(this.handleError));
   }
 
   private handleError(error: HttpErrorResponse) {
@@ -26,7 +26,7 @@ export class HomeService {
     return throwError(() => new Error('Try Again'));
   }
     
-  confirmCredential() {
+  confirmProduct() {
     console.log(this.products);
   }
 }
