@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "XXXX",
+        "description": "XXXX",
+        "price": "$$$",
+        "pictureURL": "https://tienda-sportfitness.com/wp-content/uploads/2018/05/banda-trotadora-arles-plus-sportfitness_720x.jpg"
+    },
+    {
+        "id": 2,
+        "name": "XXXX",
+        "description": "XXXX",
+        "price": "$$$",
+        "pictureURL": "https://tienda-sportfitness.com/wp-content/uploads/2019/03/70379-BICICLETA-SPINNING-FORMIA-M1-sport-fitness.webp"
+    }
+]
